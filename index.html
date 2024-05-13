@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+   <div id="box">
+    <h1>Advanced Password Generator By Rafay</h1>
+    <input type="text" placeholder="Create Password" id="password"><br><br>
+    <input min="1" max="50" value="25" type="range" placeholder="Password Length" id="text-input" onchange="textInput()"><br><br>
+    Password Length: <span id="characterCount">25</span><br><br>
+    Password with a-z <input type="checkbox" id="small-alpha" checked><br><br>
+    Password with A-Z <input type="checkbox" id="big-alpha" checked><br><br>
+    Password with 0-9 <input type="checkbox" id="numbers" checked><br><br>
+    Password with Symbols <input type="checkbox" id="special-char" checked><br><br>
+    <button class="btn" onclick="generatePassword()">Generate</button>
+   </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <div class="box">
+    <h1>Password Generator By Rafay</h1>
+    <input type="text" placeholder="Create Password" id="password">
+    <button onclick="generatePassword()" class="btn">Generate</button>
+</div> -->

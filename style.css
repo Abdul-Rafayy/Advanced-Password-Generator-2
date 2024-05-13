@@ -1,0 +1,51 @@
+.btn:active{
+    background-color:black;
+    color: white;
+    border: 2px solid white;
+}
+.btn{
+    width: 150px;
+    height: 37px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+    background-color: black;
+    color:white;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#password{
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    font-size: larger;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+#text-input{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    font-size: larger;
+    text-align: center;
+    
+}
+input[type="range"] {
+    accent-color:black;
+	
+}
+input[type="checkbox"] {
+    accent-color: black;
+    width: 15px;
+    height: 15px;
+}
+
+
